@@ -1,13 +1,20 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "sweepdamac-marketplace",
+  "description": "SweepDaMac — macOS cleanup, optimization & maintenance tools for Claude Code",
   "owner": {
     "name": "Sovra Team"
   },
   "plugins": [
     {
       "name": "sweepdamac",
-      "source": ".",
-      "description": "Sweep Da Mac clean — system junk, caches, old files, privacy traces, and more."
+      "description": "Sweep Da Mac clean — system junk, caches, old files, privacy traces, and more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sovra Team"
+      },
+      "source": "./plugins/sweepdamac",
+      "category": "productivity"
     }
   ]
 }
