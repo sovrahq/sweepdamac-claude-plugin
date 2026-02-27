@@ -1,0 +1,20 @@
+{
+  "name": "sweepdamac-mcp-server",
+  "version": "1.0.0",
+  "description": "SweepDaMac — MCP server that sweeps da Mac clean from Claude Code",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.7.3"
+  }
+}

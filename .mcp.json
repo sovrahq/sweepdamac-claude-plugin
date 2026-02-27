@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sweepdamac": {
+      "command": "node",
+      "args": ["server/dist/index.js"],
+      "transport": "stdio"
+    }
+  }
+}

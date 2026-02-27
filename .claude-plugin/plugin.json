@@ -1,0 +1,10 @@
+{
+  "name": "sweepdamac",
+  "version": "1.0.0",
+  "description": "Sweep Da Mac clean — system junk, caches, old files, privacy traces, and more. All from Claude Code.",
+  "author": {
+    "name": "Sovra Team"
+  },
+  "repository": "https://github.com/sovrahq/sweepdamac-claude-plugin",
+  "license": "MIT"
+}

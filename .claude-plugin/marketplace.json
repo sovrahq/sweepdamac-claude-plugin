@@ -1,0 +1,13 @@
+{
+  "name": "sweepdamac-marketplace",
+  "owner": {
+    "name": "Sovra Team"
+  },
+  "plugins": [
+    {
+      "name": "sweepdamac",
+      "source": ".",
+      "description": "Sweep Da Mac clean — system junk, caches, old files, privacy traces, and more."
+    }
+  ]
+}
